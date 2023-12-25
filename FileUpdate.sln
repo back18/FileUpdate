@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Core", "..\QuanLib\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.IO", "..\QuanLib\QuanLib.IO\QuanLib.IO.csproj", "{98393058-8FC7-4966-8119-0BABD4273CAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Server.ConsoleTerminal", "FileUpdate.Server.ConsoleTerminal\FileUpdate.Server.ConsoleTerminal.csproj", "{77AFE40A-D431-47FB-A67E-21EEAFF36351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Client.ConsoleTerminal", "FileUpdate.Client.ConsoleTerminal\FileUpdate.Client.ConsoleTerminal.csproj", "{3517C3C3-67C4-4991-A486-2262D7071522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{98393058-8FC7-4966-8119-0BABD4273CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98393058-8FC7-4966-8119-0BABD4273CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98393058-8FC7-4966-8119-0BABD4273CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AFE40A-D431-47FB-A67E-21EEAFF36351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AFE40A-D431-47FB-A67E-21EEAFF36351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AFE40A-D431-47FB-A67E-21EEAFF36351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AFE40A-D431-47FB-A67E-21EEAFF36351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3517C3C3-67C4-4991-A486-2262D7071522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3517C3C3-67C4-4991-A486-2262D7071522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3517C3C3-67C4-4991-A486-2262D7071522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3517C3C3-67C4-4991-A486-2262D7071522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
