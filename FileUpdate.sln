@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Common", "FileUpdate.Common\FileUpdate.Common.csproj", "{C8CAD437-A45D-4826-9CFD-0283A5374347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUpdate.Common", "FileUpdate.Common\FileUpdate.Common.csproj", "{C8CAD437-A45D-4826-9CFD-0283A5374347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Server", "FileUpdate.Server\FileUpdate.Server.csproj", "{44F3B617-A2AC-40F1-A1EE-3EE166FCB5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUpdate.Server", "FileUpdate.Server\FileUpdate.Server.csproj", "{44F3B617-A2AC-40F1-A1EE-3EE166FCB5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Client", "FileUpdate.Client\FileUpdate.Client.csproj", "{33F7BD76-0A6E-4726-9716-5E04C2D42831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUpdate.Client", "FileUpdate.Client\FileUpdate.Client.csproj", "{33F7BD76-0A6E-4726-9716-5E04C2D42831}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Core", "..\QuanLib\QuanLib.Core\QuanLib.Core.csproj", "{DC702500-610F-44A2-963B-BC536BEAF183}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.IO", "..\QuanLib\QuanLib.IO\QuanLib.IO.csproj", "{98393058-8FC7-4966-8119-0BABD4273CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Server.ConsoleTerminal", "FileUpdate.Server.ConsoleTerminal\FileUpdate.Server.ConsoleTerminal.csproj", "{77AFE40A-D431-47FB-A67E-21EEAFF36351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUpdate.Server.ConsoleTerminal", "FileUpdate.Server.ConsoleTerminal\FileUpdate.Server.ConsoleTerminal.csproj", "{77AFE40A-D431-47FB-A67E-21EEAFF36351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpdate.Client.ConsoleTerminal", "FileUpdate.Client.ConsoleTerminal\FileUpdate.Client.ConsoleTerminal.csproj", "{3517C3C3-67C4-4991-A486-2262D7071522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUpdate.Client.ConsoleTerminal", "FileUpdate.Client.ConsoleTerminal\FileUpdate.Client.ConsoleTerminal.csproj", "{3517C3C3-67C4-4991-A486-2262D7071522}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Downloader", "..\QuanLib\QuanLib.Downloader\QuanLib.Downloader.csproj", "{91732608-4FF4-4C6F-AF46-46DC5C0CB6F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLib.Logging", "..\QuanLib\QuanLib.Logging\QuanLib.Logging.csproj", "{C5607E7E-A81F-4AD3-8A91-B4D4B1F4F49C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{3517C3C3-67C4-4991-A486-2262D7071522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3517C3C3-67C4-4991-A486-2262D7071522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3517C3C3-67C4-4991-A486-2262D7071522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91732608-4FF4-4C6F-AF46-46DC5C0CB6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91732608-4FF4-4C6F-AF46-46DC5C0CB6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91732608-4FF4-4C6F-AF46-46DC5C0CB6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91732608-4FF4-4C6F-AF46-46DC5C0CB6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5607E7E-A81F-4AD3-8A91-B4D4B1F4F49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5607E7E-A81F-4AD3-8A91-B4D4B1F4F49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5607E7E-A81F-4AD3-8A91-B4D4B1F4F49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5607E7E-A81F-4AD3-8A91-B4D4B1F4F49C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

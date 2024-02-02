@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\QuanLib\QuanLib.IO\QuanLib.IO.csproj" />
+    <ProjectReference Include="..\..\QuanLib\QuanLib.Logging\QuanLib.Logging.csproj" />
   </ItemGroup>
 
 </Project>
